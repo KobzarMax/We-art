@@ -5,6 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WE ART</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./fonts/font-style.css">
 </head>
 <body>
     <header class="header">
@@ -18,25 +20,38 @@
                 <a href="#" class="header-logo"><img src="./images/we-art-logo.svg" alt="logo_image" class="header-logo_image"></a>
             </div>
             <div class="header-languages">
-                <p class="language-name">
-                    Eng
-                </p>
-                <p class="language-name">
-                    Рус
-                </p>
-                <p class="language-name">
-                    Pol
-                </p>
+                <a href="#" class="language-link">
+                    <p class="language-name">
+                        Eng
+                    </p>
+                </a>
+                <a href="#" class="language-link active-language">
+                    <p class="language-name">
+                        Рус
+                    </p>
+                </a>
+                <a href="#" class="language-link">
+                    <p class="language-name">
+                        Pol
+                    </p>
+                </a>
+            </div>
+            <div class="header-languages_select">
+                <select name="lang" class="select-lang">
+                    <option value="eng" class="option">Eng</option>
+                    <option selected value="rus" class="option">Рус</option>
+                    <option value="pol" class="option">Pol</option>
+                </select>
             </div>
         </div>
         <div class="nav-wrapper">
             <nav class="nav">
                 <ul class="nav-list">
-                    <a href="#" class="nav-list_link"><li class="nav-list_item">О студии</li></a>
-                    <a href="#" class="nav-list_link"><li class="nav-list_item">Портфолио</li></a>
-                    <a href="#" class="nav-list_link"><li class="nav-list_item">Этапы работы</li></a>
-                    <a href="#" class="nav-list_link"><li class="nav-list_item">Стоимость</li></a>
-                    <a href="#" class="nav-list_link"><li class="nav-list_item">Эко-материалы</li></a>
+                    <a href="#" class="nav-list_link dot"><li class="nav-list_item">О студии</li></a>
+                    <a href="#" class="nav-list_link dot"><li class="nav-list_item">Портфолио</li></a>
+                    <a href="#" class="nav-list_link dot"><li class="nav-list_item">Этапы работы</li></a>
+                    <a href="#" class="nav-list_link dot"><li class="nav-list_item">Стоимость</li></a>
+                    <a href="#" class="nav-list_link dot"><li class="nav-list_item">Эко-материалы</li></a>
                     <a href="#" class="nav-list_link"><li class="nav-list_item">Контакты</li></a>
                 </ul>
             </nav>
@@ -45,67 +60,67 @@
     <main class="main">
         <section class="section">
             <div class="video-wrapper">
-                <video src="./images/bg_photo-video.png"></video>
+                <video class="video" width="100%" poster="./images/bg_photo-video.png" src="./images/bg_photo-video.png"></video>
             </div>
         </section>
         <section class="section">
             <div class="new-projects">
                 <h1 class="new-projects_title">Новые проекты</h1>
                 <div class="new-projects-catalog">
-                    <div class="new-projects-card">
+                    <a class="new-projects-card">
                         <div class="new-projects-image">
                             <img src="./images/project-photo-1.jpg" alt="projects-image" class="projects-image">
                         </div>
                         <p class="new-projects-name">Котедж Первый парковый</p>
-                    </div>
-                    <div class="new-projects-card">
+                    </a>
+                    <a class="new-projects-card">
                         <div class="new-projects-image">
                             <img src="./images/project-photo-2.jpg" alt="projects-image" class="projects-image">
                         </div>
                         <p class="new-projects-name">Квартира ЖК Риверстоун</p>
-                    </div>
-                    <div class="new-projects-card">
+                    </a>
+                    <a class="new-projects-card">
                         <div class="new-projects-image">
                             <img src="./images/project-photo-3.jpg" alt="projects-image" class="projects-image">
                         </div>
                         <p class="new-projects-name">Дом Грузевица-3</p>
-                    </div>
-                    <div class="new-projects-card">
+                    </a>
+                    <a class="new-projects-card">
                         <div class="new-projects-image">
                             <img src="./images/project-photo-4.jpg" alt="projects-image" class="projects-image">
                         </div>
                         <p class="new-projects-name">Дом по улице Летняя</p>
-                    </div>
-                    <div class="new-projects-card">
+                    </a>
+                    <a class="new-projects-card">
                         <div class="new-projects-image">
                             <img src="./images/project-photo-5.jpg" alt="projects-image" class="projects-image">
                         </div>
                         <p class="new-projects-name">Магазин Аристократ</p>
-                    </div>
-                    <div class="new-projects-card">
+                    </a>
+                    <a class="new-projects-card">
                         <div class="new-projects-image">
                             <img src="./images/project-photo-6.jpg" alt="projects-image" class="projects-image">
                         </div>
                         <p class="new-projects-name">Магазин SEW TECH</p>
-                    </div>
-                    <div class="new-projects-card">
+                    </a>
+                    <a class="new-projects-card">
                         <div class="new-projects-image">
                             <img src="./images/project-photo-7.jpg" alt="projects-image" class="projects-image">
                         </div>
                         <p class="new-projects-name">Апартаменты</p>
-                    </div>
-                    <div class="new-projects-card">
+                    </a>
+                    <a class="new-projects-card">
                         <div class="new-projects-image">
                             <img src="./images/project-photo-8.jpg" alt="projects-image" class="projects-image">
                         </div>
                         <p class="new-projects-name">Бутик Mix</p>
-                    </div>
-                    <div class="new-projects-card">
+                    </a>
+                    <a class="new-projects-card">
                         <div class="new-projects-image">
                             <img src="./images/project-photo-9.jpg" alt="projects-image" class="projects-image">
                         </div>
                         <p class="new-projects-name">Загородный дом</p>
-                    </div>
+                    </a>
                 </div>
             </div>
         </section>
@@ -135,5 +150,8 @@
             <div class="footer-logo_wrapper"><a href="#" class="footer-logo_link"><img src="./images/footer-logo.svg" alt="footer-logo_image" class="footer-logo_image"></a></div>
         </div>
     </footer>
+
+
+    <script src="./js/script.js"></script>
 </body>
 </html>
