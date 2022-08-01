@@ -11,56 +11,107 @@
 <body>
     <header class="header">
         <div class="header-wrapper">
-            <div class="header-icon_wrapper">
-                <a href="#" class="header-icon_link"><img src="./images/facebook.svg" alt="facebook header-icon" class="header-icon"></a>
-                <a href="#" class="header-icon_link"><img src="./images/instagram.svg" alt="instagram header-icon" class="header-icon"></a>
-                <a href="#" class="header-icon_link"><img src="./images/pinterest.svg" alt="pinterest header-icon" class="header-icon"></a>
-            </div>
-            <div class="header-logo_wrapper">
-                <a href="#" class="header-logo"><img src="./images/we-art-logo.svg" alt="logo_image" class="header-logo_image"></a>
-            </div>
-            <div class="header-languages">
-                <a href="#" class="language-link">
-                    <p class="language-name">
-                        Eng
-                    </p>
-                </a>
-                <a href="#" class="language-link active-language">
-                    <p class="language-name">
-                        Рус
-                    </p>
-                </a>
-                <a href="#" class="language-link">
-                    <p class="language-name">
-                        Pol
-                    </p>
-                </a>
-            </div>
-            <div class="header-languages_select">
-                <select name="lang" class="select-lang">
-                    <option value="eng" class="option">Eng</option>
-                    <option selected value="rus" class="option">Рус</option>
-                    <option value="pol" class="option">Pol</option>
-                </select>
+            <div class="container">
+                <div class="header-content">
+                    <div class="headermob-nav">
+                        <input id="menu-toggle" type="checkbox" />
+                        <label class="menu-btn" for="menu-toggle">
+                        <span></span>
+                        </label>
+                        <div class="menu-box">
+                            <ul>
+                                <li class="headermob-item">
+                                    <a class="headermob-link" href="#">Главная</a>
+                                </li>
+                                <li class="headermob-item">
+                                    <a class="headermob-link" href="#">О студии</a>
+                                </li>
+                                <li class="headermob-item">
+                                    <a class="headermob-link" href="#">Портфолио</a>
+                                </li>
+                                <li class="headermob-item">
+                                    <a class="headermob-link" href="#">Этапы работы</a>
+                                </li>
+                                <li class="headermob-item">
+                                    <a class="headermob-link" href="#">Стоимость</a>
+                                </li>
+                                <li class="headermob-item">
+                                    <a class="headermob-link" href="#">Контакты</a>
+                                </li>
+                            </ul>
+                            <div class="headermob__social">
+                                <a class="headermob-social_link" href="#" target="_blank"><i class="fa-brands fa-facebook-f"></i></a>
+                                <a class="headermob-social_link" href="#" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                                <a class="headermob-social_link" href="#" target="_blank"><i class="fa-brands fa-pinterest"></i></a>
+                            </div>
+                            <div class="header-languages headermob-languages">
+                                <a href="#" class="language-link">
+                                    <p class="language-name">
+                                        Eng
+                                    </p>
+                                </a>
+                                <a href="#" class="language-link active-language">
+                                    <p class="language-name">
+                                        Рус
+                                    </p>
+                                </a>
+                                <a href="#" class="language-link">
+                                    <p class="language-name">
+                                        Pol
+                                    </p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header-icon_wrapper">
+                        <a href="#" class="header-icon_link"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="header-icon_link"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" class="header-icon_link"><i class="fa-brands fa-pinterest"></i></a>
+                    </div>
+                    <div class="header-logo_wrapper">
+                        <a href="#" class="header-logo"><img src="./images/we-art-logo.svg" alt="logo_image" class="header-logo_image"></a>
+                    </div>
+                    <div class="header-languages">
+                        <a href="#" class="language-link">
+                            <p class="language-name">
+                                Eng
+                            </p>
+                        </a>
+                        <a href="#" class="language-link active-language">
+                            <p class="language-name">
+                                Рус
+                            </p>
+                        </a>
+                        <a href="#" class="language-link">
+                            <p class="language-name">
+                                Pol
+                            </p>
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
         <div class="nav-wrapper">
-            <nav class="nav">
-                <ul class="nav-list">
-                    <a href="#" class="nav-list_link dot"><li class="nav-list_item">О студии</li></a>
-                    <a href="#" class="nav-list_link dot"><li class="nav-list_item">Портфолио</li></a>
-                    <a href="#" class="nav-list_link dot"><li class="nav-list_item">Этапы работы</li></a>
-                    <a href="#" class="nav-list_link dot"><li class="nav-list_item">Стоимость</li></a>
-                    <a href="#" class="nav-list_link dot"><li class="nav-list_item">Эко-материалы</li></a>
-                    <a href="#" class="nav-list_link"><li class="nav-list_item">Контакты</li></a>
-                </ul>
-            </nav>
+            <div class="container">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <a href="#" class="nav-list_link dot"><li class="nav-list_item">О студии</li></a>
+                        <a href="#" class="nav-list_link dot"><li class="nav-list_item">Портфолио</li></a>
+                        <a href="#" class="nav-list_link dot"><li class="nav-list_item">Этапы работы</li></a>
+                        <a href="#" class="nav-list_link dot"><li class="nav-list_item">Стоимость</li></a>
+                        <a href="#" class="nav-list_link dot"><li class="nav-list_item">Эко-материалы</li></a>
+                        <a href="#" class="nav-list_link"><li class="nav-list_item">Контакты</li></a>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </header>
     <main class="main">
-        <section class="section">
-            <div class="video-wrapper">
-                <video class="video" width="100%" poster="./images/bg_photo-video.png" src="./images/bg_photo-video.png"></video>
+        <section class="video-section">
+            <div class="main-banner full-height">
+                <video poster="./images/bg_photo-video.png" playsinline="true" autoplay="true" muted="" id="videoTeaser" loop="true">
+                    <source id="videoTeaserSource" src="./images/banner-video.mp4" type="video/mp4">
+                </video>
             </div>
         </section>
         <section class="section">
@@ -124,34 +175,50 @@
                 </div>
             </div>
         </section>
-        <section class="section">
+        <section class="text-section">
             <div class="order-wrapper">
-                <h2 class="order-title">
-                    Заказать дизайн интерьера в Хмельницком для своего дома!
-                </h2>
-                <p class="order-text">
-                    Дом для каждого из нас – это место, где мы чувствуем уют и покой, обретаем душевное равновесие, куда мы все спешим после тяжелого рабочего дня, и где хотим спрятаться от городской суматохи. И, конечно, у каждого есть дом мечты, который, наверное, был придуман и визуализирован еще в детстве или же, наоборот, есть мечта, но нет четкого представления как он будет выглядеть. Команда We-ART с радостью поможет Вам выполнить абсолютно любой дизайн интерьера Хмельницкий. 
-                </p>
-                <p class="order-text">
-                    За время работы команда дизайн студии интерьера в Хмельницком We-ART накопила достаточно знаний и навыков, чтобы удовлетворить вкусы любого клиента, а также выполнила десятки проектов, в том числе и для представителей своей сферы. Каждый клиент уникален, и каждый ставит свои приоритеты – для кого-то это время, для кого-то цена. Для команды We-ART в приоритете же качество выполнения задач и пожелания клиента, поэтому про нашу компанию за все время работы отзывались только с хорошей стороны.
-                </p>
-                <a href="#" class="order-link">Читать больше</a>
+                <div class="container">
+                    <h2 class="order-title">
+                        Заказать дизайн интерьера в Хмельницком для своего дома!
+                    </h2>
+                    <p class="order-text">
+                        Дом для каждого из нас – это место, где мы чувствуем уют и покой, обретаем душевное равновесие, куда мы все спешим после тяжелого рабочего дня, и где хотим спрятаться от городской суматохи. И, конечно, у каждого есть дом мечты, который, наверное, был придуман и визуализирован еще в детстве или же, наоборот, есть мечта, но нет четкого представления как он будет выглядеть. Команда We-ART с радостью поможет Вам выполнить абсолютно любой дизайн интерьера Хмельницкий. 
+                    </p>
+                    <p class="order-text">
+                        За время работы команда дизайн студии интерьера в Хмельницком We-ART накопила достаточно знаний и навыков, чтобы удовлетворить вкусы любого клиента, а также выполнила десятки проектов, в том числе и для представителей своей сферы. Каждый клиент уникален, и каждый ставит свои приоритеты – для кого-то это время, для кого-то цена. Для команды We-ART в приоритете же качество выполнения задач и пожелания клиента, поэтому про нашу компанию за все время работы отзывались только с хорошей стороны.
+                    </p>
+                    <p id="hide-content" class="order-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel dolores nam culpa cumque necessitatibus deleniti nobis, vero voluptas assumenda fugit omnis recusandae explicabo, doloribus fuga voluptatibus. Fugiat nisi dignissimos illo!</p>
+                    <button class="order-button">Читать больше</button>
+                </div>
             </div>
         </section>
     </main>
     <footer class="footer">
         <div class="footer-wrapper">
             <div class="footer-icon_wrapper">
-                <a href="#" class="footer-icon_link"><img src="./images/facebook.svg" alt="facebook footer-icon" class="footer-icon"></a>
-                <a href="#" class="footer-icon_link"><img src="./images/instagram.svg" alt="instagram footer-icon" class="footer-icon"></a>
-                <a href="#" class="footer-icon_link"><img src="./images/pinterest.svg" alt="pinterest footer-icon" class="footer-icon"></a>
+                <a href="#" class="footer-icon_link"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" class="footer-icon_link"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#" class="footer-icon_link"><i class="fa-brands fa-pinterest"></i></a>
             </div>
             <div class="footer-rights">© We-Art. Все права защищены.</div>
             <div class="footer-logo_wrapper"><a href="#" class="footer-logo_link"><img src="./images/footer-logo.svg" alt="footer-logo_image" class="footer-logo_image"></a></div>
         </div>
+        <div class="footer-wrapper-mobile">
+            <div class="footer-mobile_icons">
+                <div class="footer-icon_wrapper">
+                    <a href="#" class="footer-icon_link"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="footer-icon_link"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="footer-icon_link"><i class="fa-brands fa-pinterest"></i></a>
+                </div>
+                <div class="footer-logo_wrapper"><a href="#" class="footer-logo_link"><img src="./images/footer-logo.svg" alt="footer-logo_image" class="footer-logo_image"></a></div>
+            </div>
+            <div class="footer-rights">© We-Art. Все права защищены.</div>
+            
+        </div>
     </footer>
 
 
+    <script src="https://kit.fontawesome.com/e50b17d262.js" crossorigin="anonymous"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>
