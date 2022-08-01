@@ -528,7 +528,7 @@ body {
 		font-size: 20px;
 	}
 	.main-banner {
-		height: calc(100vh - 410px)
+		height: calc(100vh - 380px)
 	}
 	.menu-box {
 		width: 200px;
@@ -574,13 +574,13 @@ body {
 		right: -15px;
 	}
 }
-@media (max-width: 372px) {
+@media (max-width: 420px) {
 	.new-projects_title {
 		line-height: normal;
 		margin: 10px auto;
 	}
 	.main-banner {
-		height: calc(100vh - 470px)
+		height: calc(100vh - 430px)
 	}
 	.new-projects-card {
 		margin-bottom: 15px;
